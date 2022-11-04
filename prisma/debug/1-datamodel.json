@@ -571,8 +571,21 @@
           }
         ],
         "primaryKey": null,
-        "uniqueFields": [],
-        "uniqueIndexes": [],
+        "uniqueFields": [
+          [
+            "participantId",
+            "gameId"
+          ]
+        ],
+        "uniqueIndexes": [
+          {
+            "name": null,
+            "fields": [
+              "participantId",
+              "gameId"
+            ]
+          }
+        ],
         "isGenerated": false
       }
     ],
